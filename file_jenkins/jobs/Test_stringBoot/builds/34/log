@@ -1,0 +1,38 @@
+Started by an SCM change
+Running as SYSTEM
+Building remotely on [8mha:////4DMgyW5oQZ4j684AWfdpu5Brt4Rv6Z9mdS0fMDlfQAWhAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQifcf01LwS3eACkEH6AC1fS0PMAAAA[0mAgent-Spring (midterm) in workspace /var/jenkins_home/workspace/Test_stringBoot
+The recommended git tool is: NONE
+using credential midterm
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Test_stringBoot/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/gitmeas02/DevopsExam.git # timeout=10
+Fetching upstream changes from https://github.com/gitmeas02/DevopsExam.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+using GIT_SSH to set credentials midterm devop
+Verifying host key using known hosts file
+[8mha:AAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgmEo2IFE6fjN+19fes8vTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+Kx+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6AcdrEU/1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://github.com/gitmeas02/DevopsExam.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/midterm^{commit} # timeout=10
+Checking out Revision 198d53423d2fdb9101dd65abcdfaf90bb09be9ab (refs/remotes/origin/midterm)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 198d53423d2fdb9101dd65abcdfaf90bb09be9ab # timeout=10
+Commit message: "connect to database"
+ > git rev-list --no-walk 7717f1b05ff6dd3eb592f1fba61cf4262ac57bf9 # timeout=10
+[Gradle] - Launching build.
+[Test_stringBoot] $ /var/jenkins_home/tools/hudson.plugins.gradle.GradleInstallation/gradle/bin/gradle build -x test
+Starting a Gradle Daemon (subsequent builds will be faster)
+[8mha:////4K3uuvKbV+zk3ZsKcn1IalaH52cRX/8XhBfzBrywCa6yAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :compileJava UP-TO-DATE
+[8mha:////4K3uuvKbV+zk3ZsKcn1IalaH52cRX/8XhBfzBrywCa6yAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :processResources
+[8mha:////4K3uuvKbV+zk3ZsKcn1IalaH52cRX/8XhBfzBrywCa6yAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :classes
+[8mha:////4K3uuvKbV+zk3ZsKcn1IalaH52cRX/8XhBfzBrywCa6yAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :resolveMainClassName
+[8mha:////4K3uuvKbV+zk3ZsKcn1IalaH52cRX/8XhBfzBrywCa6yAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :bootJar
+[8mha:////4K3uuvKbV+zk3ZsKcn1IalaH52cRX/8XhBfzBrywCa6yAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :jar
+[8mha:////4K3uuvKbV+zk3ZsKcn1IalaH52cRX/8XhBfzBrywCa6yAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :assemble
+[8mha:////4K3uuvKbV+zk3ZsKcn1IalaH52cRX/8XhBfzBrywCa6yAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :check
+[8mha:////4K3uuvKbV+zk3ZsKcn1IalaH52cRX/8XhBfzBrywCa6yAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :build
+
+[8mha:////4PfXKXEkCyCNODQDwtMcPsJLV/5d7TkIbwYsOQdDZCcOAAAAYx+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUz5l5Yk5+em+uWXpNbNmqZ4mHPZIiYGhooiBimoruT8vOJ8oHJnCA1SyAABjCCFBQBI197DZQAAAA==[0mBUILD SUCCESSFUL in 39s
+5 actionable tasks: 4 executed, 1 up-to-date
+Build step 'Invoke Gradle script' changed build result to SUCCESS
+Finished: SUCCESS

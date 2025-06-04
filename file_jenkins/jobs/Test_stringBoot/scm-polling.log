@@ -1,0 +1,15 @@
+Started on Jun 4, 2025, 10:08:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 198d53423d2fdb9101dd65abcdfaf90bb09be9ab (refs/remotes/origin/midterm)
+The recommended git tool is: NONE
+using credential midterm
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+using GIT_SSH to set credentials midterm devop
+Verifying host key using known hosts file
+[8mha:////4GMBYGHJ2ePF4qDCbOkz6SBI+gleQ3lCl/s0Ycw1B4LZAAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgmEo2IFE6fjN+19fes8vTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+Kx+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6AcdrEU/1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git ls-remote -h -- https://github.com/gitmeas02/DevopsExam.git # timeout=10
+Found 2 remote heads on https://github.com/gitmeas02/DevopsExam.git
+[poll] Latest remote head revision on refs/heads/midterm is: 198d53423d2fdb9101dd65abcdfaf90bb09be9ab - already built by 34
+Done. Took 2.2 sec
+No changes

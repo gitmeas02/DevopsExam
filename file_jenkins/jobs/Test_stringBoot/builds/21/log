@@ -1,0 +1,66 @@
+Started by user [8mha:////4IKBU87uDMWuurMLNwFv0GflCu6MIlKeI+y1evDbb+kZAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mSean Raksmey
+Running as SYSTEM
+Building remotely on [8mha:////4DMgyW5oQZ4j684AWfdpu5Brt4Rv6Z9mdS0fMDlfQAWhAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQifcf01LwS3eACkEH6AC1fS0PMAAAA[0mAgent-Spring (midterm) in workspace /var/jenkins_home/workspace/Test_stringBoot
+The recommended git tool is: NONE
+using credential midterm
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Test_stringBoot/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/gitmeas02/DevopsExam.git # timeout=10
+Fetching upstream changes from https://github.com/gitmeas02/DevopsExam.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+using GIT_SSH to set credentials midterm devop
+Verifying host key using known hosts file
+[8mha:AAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgmEo2IFE6fjN+19fes8vTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+Kx+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6AcdrEU/1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://github.com/gitmeas02/DevopsExam.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/midterm^{commit} # timeout=10
+Checking out Revision 7717f1b05ff6dd3eb592f1fba61cf4262ac57bf9 (refs/remotes/origin/midterm)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7717f1b05ff6dd3eb592f1fba61cf4262ac57bf9 # timeout=10
+Commit message: "update gradle"
+ > git rev-list --no-walk 7717f1b05ff6dd3eb592f1fba61cf4262ac57bf9 # timeout=10
+[Gradle] - Launching build.
+[Test_stringBoot] $ gradle build -x test
+FATAL: command execution failed
+java.io.IOException: Cannot run program "gradle" (in directory "/var/jenkins_home/workspace/Test_stringBoot"): error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(Unknown Source)
+	at java.base/java.lang.ProcessBuilder.start(Unknown Source)
+	at Jenkins v2.504.1//hudson.Proc$LocalProc.<init>(Proc.java:252)
+	at Jenkins v2.504.1//hudson.Proc$LocalProc.<init>(Proc.java:221)
+	at Jenkins v2.504.1//hudson.Launcher$LocalLauncher.launch(Launcher.java:995)
+	at Jenkins v2.504.1//hudson.Launcher$ProcStarter.start(Launcher.java:507)
+	at Jenkins v2.504.1//hudson.Launcher$RemoteLaunchCallable.call(Launcher.java:1377)
+	at Jenkins v2.504.1//hudson.Launcher$RemoteLaunchCallable.call(Launcher.java:1352)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:225)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:50)
+	at hudson.remoting.Request$2.run(Request.java:391)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+	Suppressed: hudson.remoting.Channel$CallSiteStackTrace: Remote call to Agent-Spring
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1916)
+		at hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:384)
+		at hudson.remoting.Channel.call(Channel.java:1108)
+		at hudson.Launcher$RemoteLauncher.launch(Launcher.java:1136)
+		at hudson.Launcher$ProcStarter.start(Launcher.java:507)
+		at hudson.Launcher$ProcStarter.join(Launcher.java:518)
+		at PluginClassLoader for gradle//hudson.plugins.gradle.Gradle.perform(Gradle.java:321)
+		at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+		at hudson.model.Build$BuildExecution.build(Build.java:199)
+		at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:527)
+		at hudson.model.Run.execute(Run.java:1840)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+		at hudson.model.ResourceController.execute(ResourceController.java:101)
+		at hudson.model.Executor.run(Executor.java:446)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.base/java.lang.ProcessImpl.start(Unknown Source)
+	... 16 more
+Build step 'Invoke Gradle script' changed build result to FAILURE
+Build step 'Invoke Gradle script' marked build as failure
+Finished: FAILURE

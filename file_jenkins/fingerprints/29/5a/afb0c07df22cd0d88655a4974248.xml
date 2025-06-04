@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2025-05-07 08:13:54.65 UTC</timestamp>
+  <md5sum>295aafb0c07df22cd0d88655a4974248</md5sum>
+  <fileName>Credential id=midterm name=jenkins (midterm devop)</fileName>
+  <usages>
+    <entry>
+      <string>Test_stringBoot</string>
+      <ranges>1-32</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1415.v831096eb_5534">
+      <timestamp>1749029756563</timestamp>
+      <nodeName>Agent-Spring</nodeName>
+      <timestamp0>1749029197695</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

@@ -1,0 +1,3 @@
+java --version
+clear
+exit

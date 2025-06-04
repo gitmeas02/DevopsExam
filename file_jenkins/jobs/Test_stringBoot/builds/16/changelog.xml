@@ -1,0 +1,10 @@
+commit 7717f1b05ff6dd3eb592f1fba61cf4262ac57bf9
+tree e414f9952f19034507cbd127ece92fb93642ea5d
+parent 32d3107fc0ac3463faf0fd4c880ac09f7ee1c72e
+author gitmeas02 <measreaksmey02@gmail.com> 2025-05-07 16:48:35 +0700
+committer gitmeas02 <measreaksmey02@gmail.com> 2025-05-07 16:48:35 +0700
+
+    update gradle
+
+
+:100644 100644 8517c6a5acc231ddbed7f8fe3214a69402180959 f67dfc9b2decfb061f4c57129e22cc15785e45d3 M	build.gradle

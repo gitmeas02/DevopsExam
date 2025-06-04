@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.Queue_-State>
+  <items>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>admin</userId>
+              </hudson.model.Cause_-UserIdCause>
+              <int>4</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>38</id>
+      <task class="hudson.model.FreeStyleProject">Test_stringBoot</task>
+      <inQueueSince>1749027918570</inQueueSince>
+      <buildableStartMilliseconds>1749027918580</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+  </items>
+  <properties>
+    <entry>
+      <string>jenkins.model.queue.QueueIdStrategy$DefaultStrategy</string>
+      <long>39</long>
+    </entry>
+  </properties>
+</hudson.model.Queue_-State>

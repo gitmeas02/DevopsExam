@@ -1,0 +1,11 @@
+commit 198d53423d2fdb9101dd65abcdfaf90bb09be9ab
+tree f6a2e86f799d6068db2db5652f2beb628647e156
+parent 7717f1b05ff6dd3eb592f1fba61cf4262ac57bf9
+author gitmeas02 <measreaksmey02@gmail.com> 2025-06-04 17:01:04 +0700
+committer gitmeas02 <measreaksmey02@gmail.com> 2025-06-04 17:01:04 +0700
+
+    connect to database
+
+
+:100644 100644 f67dfc9b2decfb061f4c57129e22cc15785e45d3 ed9dc77dbc9beb988ce14098f5fb678d09bfab44 M	build.gradle
+:100644 100644 86b40519e508e512598eae6540a7afdec198deb9 d4cc340882dcc9e243bcbe7ed767b54bf81af748 M	src/main/resources/application.properties

@@ -1,0 +1,12 @@
+Started by user [8mha:////4IKBU87uDMWuurMLNwFv0GflCu6MIlKeI+y1evDbb+kZAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mSean Raksmey
+Lightweight checkout support not available, falling back to full checkout.
+Checking out git into /var/jenkins_home/workspace/Pipline@script/92bb40b7993f2d66ebbfb75d3df161d968791ceef248d8d3faba68c92927311f to read Jenkinsfile
+The recommended git tool is: NONE
+No credentials specified
+Seen 0 remote branches
+ > git show-ref --tags -d # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+ERROR: Maximum checkout retry attempts reached, aborting
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+ERROR: Maximum checkout retry attempts reached, aborting
+Finished: FAILURE
